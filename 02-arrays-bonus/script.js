@@ -7,6 +7,7 @@ for (let i = teachers.length - 1; i >= 0; i--) {
   reversedTeachers.push(teachers[i]);
 }
 console.log(reversedTeachers);
+console.log("%c" + reversedTeachers, "background-color: orange; color: black; padding: 2px;");
 
 // 2. Crea un nuovo array chiamato 'longNames' che contenga solo gli insegnanti
 // con un nome di lunghezza maggiore o uguale a 5 caratteri
@@ -23,7 +24,7 @@ let longNames = [];
 //*     longNames.push(teacher);
 //*       }
 //*     }
-//*     console.log(longNames);
+
 
 for (let i = 0; i < teachers.length; i++) {
   if (teachers[i].length >= 5) {
