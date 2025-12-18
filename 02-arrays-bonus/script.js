@@ -13,7 +13,7 @@ const reversedTeachers = [];
 for (let i = teachers.length - 1; i >= 0; i--) {
   reversedTeachers.push(teachers[i]);
 }
-console.log("Esercizio 1")
+console.log("Esercizio 1:")
 console.log(reversedTeachers);
 console.log("%c" + reversedTeachers.join(", "), "background-color: orange; color: black; padding: 2px;");
 
@@ -39,12 +39,13 @@ for (let i = 0; i < teachers.length; i++) {
     longNames.push(teachers[i]);
   }
 }
-console.log("Esercizio 2 \n ")
+console.log("Esercizio 2: \n ")
 console.log(longNames);
 console.log("%c" + longNames.join(", "), "background-color: orange; color: black; padding: 2px;");
 
 // 3. Rimuovi 'Ed' dall'array teachers
 teachers.splice(1, 1);
+console.log("Esercizio 3: \n ")
 console.log(teachers);
 console.log("%c" + teachers.join(", "), "background-color: orange; color: black; padding: 2px;");
 // 4. Verifica se 'Fabio' è presente nell'array teachers
@@ -55,6 +56,7 @@ for (let i = 0; i < teachers.length; i++) {
     isFabioPresent = true;
   }
 }
+console.log("Esercizio 4: \n ")
 console.log(isFabioPresent);
 console.log("%c" + isFabioPresent, "background-color: rgba(218, 34, 238, 1) ; color: black; padding: 2px;");
 
@@ -63,5 +65,6 @@ let teachersString = "";
 for (let i = 0; i < teachers.length; i++) {
   teachersString += teachers[i] + ", ";
 }
+console.log("Esercizio 5: \n ")
 console.log(teachersString);
 console.log("%c" + teachersString.trim().slice(0, -1), "background-color: orange; color: black; padding: 2px;");
