@@ -6,7 +6,7 @@ const fourthTeacher = teachers[3];
 console.log(fourthTeacher);
 
 // 2. Sostituisci il quinto insegnante nell'array teachers con 'Patrick'
-const fifthTeacherSwap = (teachers[4] = "Carlo");
+const fifthTeacherSwap = (teachers[4] = "Patrick");
 console.log(fifthTeacherSwap);
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
 const lastTeacher = teachers.pop();
