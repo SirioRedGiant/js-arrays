@@ -28,11 +28,11 @@ console.log(longNames);
 
 for (let i = 0; i < teachers.length; i++) {
   if (teachers[i].length >= 5 ) { 
-    longNames.push(teachers[i])
+    longNames.push(teachers)
 
   }
-
 }
+console.log(longNames);
 
 
 
