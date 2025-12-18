@@ -17,7 +17,7 @@ for teacher in teachers:
     longNames.append(teacher)
  */
 /*
-//! CICLO FOR OF....
+
 for (let teacher of teachers) {
   if (teacher.length >= 5) {
     longNames.push(teacher);
@@ -28,7 +28,7 @@ console.log(longNames);
 
 for (let i = 0; i < teachers.length; i++) {
   if (teachers[i].length >= 5 ) { 
-    longNames.push(teachers)
+    longNames.push(teachers[i])
 
   }
 }
